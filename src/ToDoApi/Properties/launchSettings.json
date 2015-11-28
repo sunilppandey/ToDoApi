@@ -3,7 +3,7 @@
     "IIS Express": {
       "commandName" : "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/todo",  // api/todo -> this will cause IIS express to call todo controller when the project starts
       "environmentVariables" : {
         "ASPNET_ENV": "Development"
       }
