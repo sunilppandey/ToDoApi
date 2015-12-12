@@ -29,6 +29,7 @@ namespace TodoAngularJS.Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new BookmarkedPlaceMapper());
+            modelBuilder.Configurations.Add(new ApplicationUserMapper());
 
             base.OnModelCreating(modelBuilder);
         }
